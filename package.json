@@ -13,15 +13,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/born2net/gulp-comment-swap"
+    "url": "git+https://github.com/born2net/gulp-comment-swap.git"
   },
-  "author": {
-    "name": "Sean Levy",
-    "email": "born2net@gmail.com",
-    "url": "http://www.javascriptninja.io/"
-  },
-  "scripts": {
-  },
+  "author": "Sean Levy <born2net@gmail.com> (http://www.javascriptninja.io/)",
+  "scripts": {},
   "engines": {
     "node": ">= 0.9"
   },
@@ -33,8 +28,8 @@
     "gulp-util": "^3.0.0"
   },
   "license": "MIT",
-  "readmeFilename": "readme.md",
   "bugs": {
     "url": "https://github.com/born2net/gulp-comment-swap/issues"
-  }
+  },
+  "homepage": "https://github.com/born2net/gulp-comment-swap#readme"
 }
