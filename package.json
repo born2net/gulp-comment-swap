@@ -2,7 +2,7 @@
   "name": "gulp-comment-swap",
   "main": "./gulp-comment-swap.js",
   "version": "0.0.10",
-  "description": "create html pages using a template's header and footer.",
+  "description": "Swap lines with comment in and out if they match regexp",
   "keywords": [
     "gulpplugin",
     "html template",
@@ -21,7 +21,6 @@
     "url": "http://www.javascriptninja.io/"
   },
   "scripts": {
-    "test": "mocha --reporter spec"
   },
   "engines": {
     "node": ">= 0.9"
