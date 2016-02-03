@@ -32,4 +32,6 @@ export class App2 {
     ...
 ```    
 
-the Gulp with swap between the two packaging systens...
+the Gulp with swap between the two packaging systems.
+
+enjoy!
