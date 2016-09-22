@@ -1,7 +1,7 @@
 {
   "name": "gulp-comment-swap",
   "main": "./gulp-comment-swap.js",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Swap lines with comment in and out if they match regexp",
   "keywords": [
     "gulpplugin",

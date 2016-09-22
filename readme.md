@@ -13,9 +13,11 @@ npm install gulp-comment-swap -save-dev
 and usage:
 
 ```
-gulp.task('systemjs', function (done) {
+gulp.task('dev', function (done) {
     gulp.src('./src/**/*.ts')
-        .pipe(commentSwap(new RegExp('/\\*webpack\\*/'),new RegExp('/\\*systemjs\\*/'))).on('error', handleError)
+        .pipe(commentSwap(new RegExp('/\\*prod\\*/'),new RegExp('/\\*dev\\*/'))).on('error', function(err){
+            console.log('gulp-swap error: ' + err);
+         })
         .pipe(gulp.dest('./src'));
     done()
 });

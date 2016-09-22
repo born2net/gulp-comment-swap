@@ -51,11 +51,13 @@ function loadTemplate(file, encoding, next) {
         var lineData = lines[line];
         if (lineData.match(commentLine) && !lineData.match('//')) {
             console.log('Convering ' + fileName);
-            lineData = lineData.replace('\t', '');
+//          lineData = lineData.replace('\t', '');
+            lineData = lineData.replace('', '');
             lineData = '//' + lineData;
         } else if (lineData.match(uncommentLine)) {
             console.log('Convering ' + fileName);
-            lineData = lineData.replace(/\/\//, '\t');
+//          lineData = lineData.replace(/\/\//, '\t');
+            lineData = lineData.replace(/\/\//, '');
         }
         if (lines.length == c) {
             template = template + lineData;
